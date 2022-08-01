@@ -1,0 +1,14 @@
+{
+  "name": "zod-playground",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/mktbsh/zod-playground.git",
+  "author": "mktbsh <t93.hasebe@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:storage": "yarn workspace localstorage dev"
+  }
+}
